@@ -1,0 +1,17 @@
+
+
+project titanic_ana {
+
+	load  "data/titanic.csv" to df1 
+	
+	desc of Sex as object in df1
+	distribution of Sex by Survived df1
+
+	desc of Age as object in df1
+	distribution of Age  by Survived df1
+    
+    bar of Pclass  by Survived subBy Sex  in df1
+
+}
+
+

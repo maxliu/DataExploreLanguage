@@ -1,0 +1,52 @@
+
+1) display
+2) to html
+
+//can translate to following languages 
+python
+scala
+R
+spark
+html report
+
+
+total records
+total colums
+
+for number
+    missing value
+	avg, median, total, 
+    draw distribution with class
+
+for norminal
+    missing value
+    uqique records
+    most frequent value
+    draw distribution
+    draw distribution with class 
+
+for dates 
+
+== command examples ==
+
+load filename to x
+
+columnss of x 
+
+total records of x 
+
+write x to filename
+
+avg of * in x // avg of all number columns
+median, total
+
+avg of colx in x   // avg of colx
+median, total
+
+//number
+distribution of colx [with class of coly] in x
+
+most frequent value of colx in x
+
+//norminal
+distribution of colx [with class of coly] in x

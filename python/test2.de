@@ -1,0 +1,21 @@
+
+project lcm_1 {
+
+	load  "data/auto-mpg2.csv" to df1 
+	
+	desc of model in df1
+
+    run "print self.dbs['df1'].columns"
+	
+	distribution of model  in df1
+    
+    # col1 = (col2 + col3)*col4 in df1
+    # normalize col1 in df1
+    # oneHot of col1 in df1
+    # mode1 = using leanearFit with [columns]? col1,col2 predict colT in df1 
+    # save df1 to "/data/auto-mpg2_new.csv"
+    # pred, pred_prob = using model 
+    # file none with avg|most|0 for none is "" or 0
+    
+	
+}
