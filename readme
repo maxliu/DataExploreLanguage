@@ -1,52 +1,15 @@
+# DE - A Domain Specific Language (DSL) for Data Explore
 
-1) display
-2) to html
+## What inside the Data Explore (DE) language
+• The grammar is simple. Can do a lot of things with one command.
+(done)
+• Able to generate HTML format results (done)
+• Able to generate R, Python and Scala code. (ongoing)
+The goal
+• use a simple scripts to have a glance of the data.
 
-//can translate to following languages 
-python
-scala
-R
-spark
-html report
+## More to do
+• Generate Java, Scala, R, and Python code from DE (Data Explore)code.
+• More charts.
+• Consider adding analytical models into DE.
 
-
-total records
-total colums
-
-for number
-    missing value
-	avg, median, total, 
-    draw distribution with class
-
-for norminal
-    missing value
-    uqique records
-    most frequent value
-    draw distribution
-    draw distribution with class 
-
-for dates 
-
-== command examples ==
-
-load filename to x
-
-columnss of x 
-
-total records of x 
-
-write x to filename
-
-avg of * in x // avg of all number columns
-median, total
-
-avg of colx in x   // avg of colx
-median, total
-
-//number
-distribution of colx [with class of coly] in x
-
-most frequent value of colx in x
-
-//norminal
-distribution of colx [with class of coly] in x
